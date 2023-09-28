@@ -1,0 +1,49 @@
+{
+  "name": "publics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development --open --hot --host 0.0.0.0",
+    "build": "set GENERATE_SOURCEMAP=false && webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.22.20",
+    "@babel/preset-env": "^7.22.20",
+    "@babel/preset-react": "^7.22.15",
+    "@types/node": "^20.6.2",
+    "@types/react-dom": "^18.2.7",
+    "babel-loader": "^9.1.3",
+    "css-loader": "^6.8.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.3",
+    "install": "^0.13.0",
+    "npm": "^10.1.0",
+    "style-loader": "^3.3.3",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.9",
+    "@mui/material": "^5.14.9",
+    "antd": "^5.9.1",
+    "axios": "^1.5.0",
+    "mui": "^0.0.1",
+    "react": "^18.1.0",
+    "react-clock": "^4.5.0",
+    "react-dom": "^18.1.0",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.16.0",
+    "timers-promises": "^1.0.1"
+  },
+  "engines": {
+    "node": "20.5.1"
+  }
+}
